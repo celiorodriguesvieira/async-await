@@ -2,7 +2,7 @@ function registro(id) {
   return fetch(`https://jsonplaceholder.typicode.com/todos/${id}`);
 }
 
-// async function
+// async function 2
 async function test() {
   try {
     const response = await registro(1);
